@@ -1,6 +1,15 @@
 $(document).ready( function() {
-	var d = new Date();
-	var tz = d.toString().split("EST")[1].split(" (")[0];
+	
+
+	var now= new Date();
+   	var hrs = now.getHours();
+    var mins = now.getMinutes();
+    var secs = now.getSeconds();
+	
+		$("#hours").text(hrs);
+		$("#minutes").text(mins);
+		$("#seconds").text(secs);
+	
 
 	setInterval(function () { seconds()}, 1000);
 	function seconds() {
