@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	font-size: 80px;
+	font-size: 75px;
 	font-family: courier;
 	background-image: url('http://gph.is/1aSdkid');
 }
@@ -13,10 +13,36 @@ background: url(bg-video.mp4) no-repeat;
 background-size: cover;
 }
 
-div {
+#time {
 	display: inline-block;
 }
 
 .colon {
 	font-size: 100px;
 }
+
+.container {
+	width: 900px;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: center;
+}
+
+ul {
+	background: rgba(0,0,0,0.5);
+	padding: 0px;
+	height: 50px;
+}
+
+#nav {
+	margin: 0 auto;
+}
+
